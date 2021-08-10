@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.nav-bar{
+    top: 20rem;
+    font-size: 3rem;
+    list-style: none;
+    display: inline;    
+}

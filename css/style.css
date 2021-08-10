@@ -1,0 +1,752 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+/* Styling for the PC view */
+
+header{
+    width: 100%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+li{
+    display: inline;
+    padding: 1rem 4rem;
+   
+}
+
+a{
+
+    padding: 5px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+
+    padding: 5px 20px;
+    text-decoration: none;
+    color: black;
+    border-bottom: black solid 1px;
+
+}
+
+
+.image-container{
+    display: block;
+    background-image: none;
+    position: relative;
+    
+}
+
+.my-pic{
+    width: 30rem;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    border-radius: 0.5rem;
+}
+ 
+.background-img{
+    width: 100%;
+    height: 100%;
+    /* opacity: rgba(0,0,0,0.9); */
+}
+ 
+
+.opacity-div{
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0rem;
+    width: 100%;
+    height: 100%;
+}
+
+.image-container-text{
+    position: absolute;
+    top: 62rem;
+    left: 1rem;
+    color: white;
+    padding: 1rem 10rem;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    line-height: 1.rem;
+    font-size: 4rem;
+
+}
+
+
+.vid-content .vid-content-quote{
+    /* padding: 1rem 0rem; */
+
+    line-height: 5rem;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 4rem;
+    top: 15rem;
+    position: absolute;
+  
+}
+
+.nav-container{
+    display: flex;
+    justify-content: center;
+    font-family: 'Megrim', cursive;
+    padding: 2rem 0rem;
+    font-size: 2rem;
+    background-color: rgba(0,0,0,0.2);
+    height: 1.5rem;
+    width: 100%;
+
+}
+
+#myVideo{
+    width: 100%;
+    height: 10%;
+}
+
+.vid-content{
+    top: 20%;
+    position: absolute;
+    /* justify-content: center;
+    align-items: center; */
+    color: #f1f1f1;
+}
+
+.myName{
+    font-family: 'Megrim', cursive;
+    font-size: 7rem;
+}
+
+
+.nav-bar{
+    top: 20rem;
+    font-size: 3rem;
+    list-style: none;
+    display: inline;    
+}
+
+@media only screen and (max-width:2500px){
+
+
+    .my-pic{
+        width: 30rem;
+        position: absolute;
+        left: 40%;
+        top: 15%;
+        border-radius: 0.5rem;
+    }
+
+    
+    a:hover{
+
+        padding: 0px 20px;
+        text-decoration: none;
+        color: black;
+        border-bottom: black solid 1px;
+    
+    }
+
+    .myName{
+        margin-top: 5rem;
+        font-size: 7rem;
+
+    }
+    
+
+    .image-container{
+       display: block;
+       background-image: none;
+        position: relative;
+    }
+
+    .my-pic{
+        width: 30rem;
+        position: absolute;
+        left: 37%;
+        top: 10%;
+        border-radius: 0.5rem;
+    }
+    
+    .background-img{
+        width: 100%;
+        height: 100%;
+        opacity: rgba(0,0,0,0.9);
+    }
+    
+
+    .opacity-div{
+        background-color: rgba(0,0,0,0.7);
+        position: absolute;
+        width: 100%;
+        height: 100%rem;
+    }
+
+    .image-container-text{
+        position: absolute;
+        top: 47rem;
+        left: 3rem;
+        color: white;
+        padding: 1rem 2rem;
+        text-align: center;
+        font-family: 'Shadows Into Light', cursive;
+        line-height: 1.rem;
+        font-size: 3rem;
+
+    }
+
+    #myVideo{
+        width: 100%;
+    }
+
+    .nav-container{
+        font-size: 2rem;
+    }
+
+    .vid-content .vid-content-quote{
+        /* margin-top: 10rem; */
+        top: 17rem;
+        line-height: 3.5rem;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 3rem;
+        padding: 0rem 0.5rem;
+    }
+
+    .vid-content{
+        top: 20%;
+    }
+
+
+    .interest-container{
+        position: relative;
+    }
+
+    .interest-container-text{
+        position: absolute;
+        top: 40%;
+        left: 41%;
+        color: white;
+        /* padding: 0rem 3rem; */
+        font-family: 'Shadows Into Light', cursive;
+        text-align: center;
+        line-height: 4rem;
+        font-size: 4rem;
+    }
+
+    .interest-text{
+        position: absolute;
+        top: 15%;
+        left: 40%;
+        color: white;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 5rem;
+
+
+    }
+
+    .interest-container{
+        position: relative;
+    }
+
+    .about-me-container{
+        position: relative;
+    }
+
+    .about-me-container-text{
+        position: absolute;
+        top: 40%;
+        color: white;
+        padding: 0rem 3rem;
+        font-family: 'Shadows Into Light', cursive;
+        text-align: center;
+        line-height: 4rem;
+        font-size: 2rem;
+
+    }
+
+    .about-me-text{
+        position: absolute;
+        top: 15%;
+        left: 40%;
+        color: white;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 4rem;
+
+
+    }
+
+}
+
+@media only screen and (max-width: 1100px){
+   
+    .myName{
+        font-size: 6rem;
+       
+    }
+
+    #myVideo{
+        width: 100%;
+    }
+
+    li{
+        padding: 1rem 2rem;
+
+    }
+
+    .image-container{
+        display: block;
+        background-image: none;
+        position: relative;
+    }
+ 
+    .my-pic{
+        width: 20rem;
+        position: absolute;
+        left: 35%;
+        top: 10%;
+        border-radius: 0.5rem;
+    }
+     
+    .background-img{
+        width: 100%;
+        height: 100%;
+        opacity: rgba(0,0,0,0.9);
+    }
+     
+ 
+    .opacity-div{
+        background-color: rgba(0,0,0,0.7);
+        position: absolute;
+        width: 100%;
+        height: 100%rem;
+    }
+ 
+    .image-container-text{
+        position: absolute;
+        top: 28rem;
+        left: 3rem;
+        color: white;
+        padding: 1rem 2rem;
+        text-align: center;
+        font-family: 'Shadows Into Light', cursive;
+        line-height: 1.rem;
+        font-size: 3rem;
+ 
+    }
+
+    .vid-content  .vid-content-quote{
+        top: 4.5rem;
+        line-height: 40px;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 2rem;
+        padding: 9rem 1.5rem;
+    }
+
+    .nav-container{
+        font-size: 1.8rem;
+    }
+
+    .interest-container{
+        position: relative;
+    }
+
+    .interest-container-text{
+        position: absolute;
+        top: 45%;
+        left: 34%;
+        color: white;
+        padding: 0rem 3rem;
+        font-family: 'Shadows Into Light', cursive;
+        text-align: left;
+        line-height: 3rem;
+        font-size: 4rem;
+
+    }
+
+    .interest-text{
+        position: absolute;
+        top: 15%;
+        left: 40%;
+        color: white;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 5rem;
+
+
+    }
+
+    .interest-container{
+        position: relative;
+    }
+
+    .about-me-container{
+        position: relative;
+    }
+
+    .about-me-container-text{
+        position: absolute;
+        top: 35%;
+        color: white;
+        padding: 0rem 3rem;
+        font-family: 'Shadows Into Light', cursive;
+        text-align: center;
+        line-height: 3rem;
+        font-size: 2.5rem;
+
+    }
+
+    .about-me-text{
+        position: absolute;
+        top: 15%;
+        left: 42%;
+        color: white;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 4rem;
+
+
+    }
+
+
+}
+
+@media only screen and (max-width: 900px){
+   
+    .myName{
+        margin-top: 1rem;
+        font-size: 5rem;
+       
+    }
+
+    #myVideo{
+        width: 100%;
+    }
+
+    li{
+        padding: 1rem 2rem;
+
+    }
+
+    .image-container{
+        display: block;
+        background-image: none;
+        position: relative;
+    }
+ 
+    .my-pic{
+        width: 15rem;
+        position: absolute;
+        left: 37%;
+        top: 8%;
+        border-radius: 0.5rem;
+    }
+     
+    .background-img{
+        width: 100%;
+        height: 100%;
+        opacity: rgba(0,0,0,0.9);
+    }
+     
+ 
+    .opacity-div{
+        background-color: rgba(0,0,0,0.7);
+        position: absolute;
+        width: 100%;
+        height: 100%rem;
+    }
+ 
+    .image-container-text{
+        position: absolute;
+        top: 55%;
+        left: 8%;
+        color: white;
+        padding: 1rem 2rem;
+        text-align: center;
+        font-family: 'Shadows Into Light', cursive;
+        line-height: 4rem;
+        font-size: 2.5rem;
+ 
+    }
+
+    .vid-content  .vid-content-quote{
+        top: 0rem;
+        line-height: 40px;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 1.5rem;
+        padding: 9rem 1.5rem;
+    }
+
+    .nav-container{
+        font-size: 1.5rem;
+    }
+
+    .about-me-container{
+        position: relative;
+    }
+
+    .about-me-container-text{
+        position: absolute;
+        top: 30%;
+        color: white;
+        padding: 0rem 2rem;
+        font-family: 'Shadows Into Light', cursive;
+        text-align: center;
+        line-height: 2.5rem;
+        font-size: 2rem;
+
+    }
+
+    .about-me-text{
+        position: absolute;
+        top: 13%;
+        left: 40%;
+        color: white;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 3rem;
+        line-height: 3rem;
+
+    }
+
+    .interest-container{
+        position: relative;
+    }
+
+    .interest-container-text{
+        position: absolute;
+        top: 50%;
+        left: 38%;
+        color: white;
+        padding: 0rem 2rem;
+        font-family: 'Shadows Into Light', cursive;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 3rem;
+    }
+
+    .interest-text{
+        position: absolute;
+        top: 15%;
+        left: 40%;
+        color: white;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 3rem;
+    }
+
+}
+
+
+
+/* Styling for Iphone view */
+@media only screen and (max-width: 650px) {
+
+    .myName{
+        font-size: 3.5rem;
+       
+    }
+
+    #myVideo{
+        width: 100%;
+    }
+
+    li{
+        padding: 1rem 0.4rem;
+
+    }
+
+    .nav-container{
+        font-size: 1.2rem;
+    }
+
+    .vid-content .vid-content-quote{
+        margin-top: 4rem;
+        line-height: 25px;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 1.2rem;
+        padding: 0;
+    }
+
+    .vid-content{
+        top: 20%;
+    }
+
+
+    .about-me-container{
+        position: relative;
+    }
+
+    .about-me-container-text{
+        position: absolute;
+        top: 25%;
+        color: white;
+        padding: 0rem 2rem;
+        font-family: 'Shadows Into Light', cursive;
+        text-align: center;
+        line-height: 1.5rem;
+        font-size: 2rem;
+
+    }
+
+    .about-me-text{
+        position: absolute;
+        top: 10%;
+        left: 40%;
+        color: white;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 2rem;
+
+    }
+
+    .interest-container{
+        position: relative;
+    }
+
+    .interest-container-text{
+        position: absolute;
+        top: 25%;
+        color: white;
+        padding: 0rem 2rem;
+        font-family: 'Shadows Into Light', cursive;
+        text-align: center;
+        line-height: 1.5rem;
+        font-size: 2rem;
+    }
+
+    .interest-text{
+        position: absolute;
+        top: 10%;
+        left: 40%;
+        color: white;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 2rem;
+    }
+}
+
+
+@media only screen and (max-width: 415px) {
+
+    .myName{
+        margin-top: 0rem;
+        font-size: 2.5rem;
+    }
+    
+
+    .image-container{
+       display: block;
+       background-image: none;
+       position: relative;
+       /* width: 100%; */
+    }
+
+    .my-pic{
+        width: 9rem;
+        position: absolute;
+        left: 33%;
+        top: 10%;
+        border-radius: 0.5rem;
+    }
+    
+    .background-img{
+        width: 100%;
+        height: 100%;
+        height: 20rem;
+        opacity: rgba(0,0,0,0.9);
+    }
+    
+
+    .opacity-div{
+        background-color: rgba(0,0,0,0.7);
+        position: absolute;
+        top: 0rem;
+        width: 100%;
+        height: 20rem;
+    }
+
+    .image-container-text{
+        position: absolute;
+        top: 12rem;
+        left: 1rem;
+        color: white;
+        padding: 1rem 2rem;
+        text-align: center;
+        font-family: 'Shadows Into Light', cursive;
+        line-height: 2rem;
+        font-size: 1.3rem;
+    }
+
+    #myVideo{
+        width: 100%;
+    }
+
+    .nav-container{
+        font-size: 1rem;
+        padding: 0.8rem 0rem;
+
+    }
+
+    .vid-content .vid-content-quote{
+        top: -1rem;
+        line-height: 1.45rem;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: .9rem;
+    }
+
+    .vid-content{
+        top: 20%;
+    }
+
+    .about-me-container{
+        position: relative;
+    }
+
+    .about-me-container-text{
+        position: absolute;
+        top: 7rem;
+        color: white;
+        padding: 0rem 2rem;
+        font-family: 'Shadows Into Light', cursive;
+        text-align: center;
+        line-height: 1.1rem;
+        font-size: 1rem;
+
+    }
+
+    .about-me-text{
+        position: absolute;
+        top: 3rem;
+        left: 9rem;
+        color: white;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 2rem;
+
+    }
+
+    .interest-container{
+        position: relative;
+    }
+
+    .interest-container-text{
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        color: white;
+        padding: 0rem 2rem;
+        font-family: 'Shadows Into Light', cursive;
+        text-align: left;
+        line-height: 2rem;
+        font-size: 2rem;
+    }
+
+    .interest-text{
+        position: absolute;
+        top: 15%;
+        left: 37%;
+        color: white;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 2rem;
+    }
+
+}
